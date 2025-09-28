@@ -41,6 +41,7 @@ function loginUserMessage(userName) {
 
 //if we want to take unlimited arguments
 function calculateCartPrice(...cost) {
+  //here .. is rest operator
   return cost;
 }
 

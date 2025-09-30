@@ -1,0 +1,19 @@
+innerText -> gives the only visible content
+innerContent -> gives the all text inside that element
+innerHTML -> gives all text, including html tag if written inside
+
+doucument.querySelector('') -> work as css Selectors 
+like -> #className,  .Id, etc
+gives first element 
+
+
+array -> contains map method
+NodeList -> does't contains map Method 
+
+querySelectorAll -> return a NodeList -> has forEach loop
+
+getElementByClassName -> return a htmlCollection
+-> does't has forEach loop
+stored into a variableName
+first convert into array -> myConvertedArray =  Array.from(variableName)
+now we can use all method of array
